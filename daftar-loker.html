@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Pendaftaran Loker</title>
+</head>
+
+<body>
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-none d-lg-block">
+        <div class="container d-flex">
+            <div class="contact-info me-auto">
+                <i class="icofont-envelope"></i><a href="mailto:contact@example.com">silokernf@nurulfikri.com</a>
+                <i class="icofont-phone"></i> <a href="+62838-8888-9999">+62838-8888-9999</a>
+            </div>
+            <div class="social-links float-right">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="#" class="skype"><i class="icofont-skype"></i></a>
+                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container d-flex">
+            <div class="logo me-auto">
+                <h1 class="text-light"> </h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <a href="index.html"><img src="assets/img/Logo/logopemweb2.png" alt="" class="img-fluid"></a>
+            </div>
+            <nav class="nav-menu float-right d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="index.html" style="font-size: larger; font-weight: bold;">Home</a></li>
+                    <li><a href="#about" style="font-size: larger; font-weight: bold;">Tentang Kami</a></li>
+                    <li><a href="#blog" style="font-size: larger; font-weight: bold;">Berita Terkini</a></li>
+                    <li><a href="#portfolio" style="font-size: larger; font-weight: bold;">Info Loker</a></li>
+                    <li class="btn-get-started"><a href="#reviews-area" style="font-size: larger; font-weight: bold;">Daftar</a></li>
+                    <li class="btn-get-started-login"><a href="login.html" style="font-size: larger; font-weight: bold; ">login</a></li>
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="mt-5 col-md-12 mb-5 justify-content-center">
+                <form id="myform" onsubmit="return coba()">
+                    <h3 style="text-align: center;">Form Isi Loker</h3>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Nama Perusahaaan/Organisasi</label>
+                        <input type="text" class="form-control" id="exampleInputName1" required>
+                    </div>
+                    <div class="form-group">
+                        <br/><label>Bidang Usaha</label><br/>
+                        <select class="custom-select" required>
+                <option selected>Pilih</option>
+                <option value="1">Jasa</option>
+                <option value="2">Perdagangan</option>
+                <option value="3">Industri</option>
+                <option value="3">Tranportasi</option>
+                <option value="4">dll</option>
+              </select>
+                    </div>
+                    <div class="form-group">
+                        <br/><label>Deskripsi Lowongan</label>
+                        <textarea class="form-control" cols="20" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <br/><label>Deskripsi Kualifikasi Lowongan</label>
+                        <textarea class="form-control" cols="30" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <br/><label>Kategori Lowongan</label>
+                        <div class="form-check">
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">Programmer</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                <label class="form-check-label" for="gridCheck2">Network & Infrastructure</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="gridCheck3">
+                                <label class="form-check-label" for="gridCheck3">Analyst</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="gridCheck4">
+                                <label class="form-check-label" for="gridCheck4">Data Science</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="gridCheck5">
+                                <label class="form-check-label" for="gridCheck5">dll</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <br/>
+                            <br/><label for="exampleInputContact1">Tanggal</label>
+                            <input type="date" class="form-control" id="exampleInputContact1" required>
+                        </div>
+                        <div class="form-group">
+                            <br/><label for="exampleInputContact1">Nama Pendaftar</label>
+                            <input type="text" class="form-control" id="exampleInputContact2" required>
+                        </div>
+                        <div class="form-group">
+                            <br/><label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                        </div>
+                        <br/><button type="submit" name="tombol" value="Login" class="btn btn-primary">Daftar</button>
+                        <button type="submit" class="btn btn-primary">Batal</button>
+                </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- End Our Portfolio Section -->
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <!-- End #main -->
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-info">
+                            <div class="logo me-auto">
+                                <h1 class="text-light"> </h1>
+                                <!-- Uncomment below if you prefer to use an image logo -->
+                                <a href="index.html"><img src="../Mamba/assets/Logof/logopemweb2.png" alt="" class="img-fluid"></a>
+                            </div>
+                            <p>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 footer-links">
+                            <h4>Alamat</h4>
+                            <p>
+                                Jalan Lenteng Agung Raya No.20 RT.5/RW.1 Lenteng Agung, Kelurahan, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Kirim Email</h4>
+                            <p>Masukan Email untuk mendapatkan info yang lebih lanjut via email</p>
+                            <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Mamba.Kelompok2WebProg</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <script>
+            function coba() {
+
+                alert("Pendaftaran Berhasil");
+                window.open("validasi.html");
+            }
+        </script>
+
+        <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+        <script src="assets/vendor/venobox/venobox.min.js"></script>
+        <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/vendor/counterup/counterup.min.js"></script>
+        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
